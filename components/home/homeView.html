@@ -1,0 +1,16 @@
+<div class="quizzes">
+	<div class="quizzes-content">
+		<h1> Choose a quiz! </h1>
+	<!--  <hr>-->
+		<div ng-repeat="item in quizzes">
+			<a ui-sref="quiz.view({quizName: item.name})"> {{item.name}}</a>
+		</div>
+	</div>
+</div>
+
+<div class="past-quizzes">
+	<div class="past-quizzes-content">
+		<h1> View Past Quizzes </h1>
+	<!--  <hr>-->
+	</div>
+</div>

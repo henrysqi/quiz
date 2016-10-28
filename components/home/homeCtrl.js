@@ -1,5 +1,7 @@
-angular.module('quizApp').controller('homeCtrl', function(){
+angular.module('quizApp').controller('homeCtrl', function($scope, quizList){
 	
-	
+//	console.log(pastQuizList);
+	$scope.quizzes = quizList;
+	$scope.test = "asdasd"
 	
 })

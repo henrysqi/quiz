@@ -1,5 +1,4 @@
-angular.module('quizApp').controller('quizCtrl', function(){
+angular.module('quizApp').controller('quizCtrl', function($scope){
 	
-	
-	
+
 })
