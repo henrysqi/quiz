@@ -11,8 +11,8 @@ header {
 	background-color: black;
 	height: 50px;
 	position: relative;
-	padding-left: 50px;
-	border-bottom: 3px solid #FBD343;
+	padding-left: 15px;
+	border-bottom: 4px solid #FBD343;
 }
 
 header ul {
@@ -21,7 +21,7 @@ header ul {
 
 header ul li a{
 	text-decoration: none;
-	color: #0088B7;
+	color: #00BEFF;
 	position: absolute;
 	top: 50%;
 	transform: translate(0, -50%)
@@ -72,14 +72,47 @@ header ul li a{
 
 }
 
+/* ===================================================== */
 
+.list {
+	background-color: black;
+	width: 50%;
+	height: 500px;
+	float: left;
+	border-right: 2px solid #FBD343;
+	padding: 20px 50px 0 20px;
+}
 
+.buttons button {
+	background-color: #FBD343;
+	padding: 2px;
+	font-weight: 700;
+	margin-right: 5px;
+}
 
+.buttons label {
+	color: white;
+	font-size: .5em;
+}
 
+.list p {
+	color: white;
+}
 
+.detailWrapper {
+	background-color: #E4E4E4;
+	width: 50%;
+	height: 500px;
+	float: left;
+	border-left: 2px solid #FBD343;
+	padding: 40px 20px 20px;
+}
 
-
-
+.saveBtn {
+	background-color: #FBD343;
+	padding: 2px;
+	font-weight: 700;
+}
 
 
 
