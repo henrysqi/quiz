@@ -3,9 +3,9 @@ angular.module('quizApp').controller('quizCtrl', function ($scope, quizService, 
   $scope.questions = questions;
   $scope.answers = {};
   $scope.currentQuestion = $scope.questions[0];
-    $scope.results = {};
+  $scope.results = {};
 
-     $scope.saveAnswer = function (answer) {
+  $scope.saveAnswer = function (answer) {
     $scope.answers[$scope.currentQuestion.id] = answer;
     $scope.nextQuestion();
 
